@@ -6,7 +6,7 @@
 namespace util {
 
 template <typename Iterator>
-auto largest_sum_contiguous_subarray(Iterator begin, Iterator end) -> typename std::remove_reference<decltype(*begin)>::type {
+auto largest_sum_subarray(Iterator begin, Iterator end) -> typename std::remove_reference<decltype(*begin)>::type {
     using T = typename std::remove_reference<decltype(*begin)>::type; 
 
     T cur_max_sum = 0;

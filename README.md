@@ -1,19 +1,19 @@
 lscs
 ===========
 
-Largest Sum Contiguous Subarray
+Largest Sum Subarray
 
 Usage
 =====
 
 ````cpp
 
-#include "lscs.h"
+#include "lss.h"
 
 int main() {
     /* ... */
 
-    std::cout << util::largest_sum_contiguous_subarray(c.begin(), c.end()) << std::endl;
+    std::cout << util::largest_sum_subarray(c.begin(), c.end()) << std::endl;
 
     /* ... */
 

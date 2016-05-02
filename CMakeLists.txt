@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
-project (lscs)
+project (lss)
 set (CMAKE_CXX_COMPILER "g++")
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --std=c++0x")
-add_executable(lscs main.cpp)
+add_executable(lss main.cpp)
